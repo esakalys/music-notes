@@ -7,8 +7,7 @@ const generateNotes = () => {
 
     for (let i = 0; i < numNotes; i++){
         let value = Math.floor(Math.random() * 7)
-        let note = {i: value}
-        notes.push(note)
+        notes.push(value)
     }
 
     result = {'Octave': octave, 'Notes': notes}
